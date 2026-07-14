@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Backprop Simulator — Neural Network Interactive Learning</title>
+    <meta name="description" content="An interactive simulator for learning how backpropagation works. Adjust weights, see forward/backward passes, and visualize gradient descent live." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      html { font-size: 14px; }
+      body {
+        font-family: 'Inter', system-ui, sans-serif;
+        background: #0a0f1e;
+        color: #f1f5f9;
+        min-height: 100vh;
+        overflow-x: hidden;
+      }
+      ::-webkit-scrollbar { width: 6px; height: 6px; }
+      ::-webkit-scrollbar-track { background: #0a0f1e; }
+      ::-webkit-scrollbar-thumb { background: #1e2d40; border-radius: 3px; }
+      ::-webkit-scrollbar-thumb:hover { background: #2d4460; }
+      #root { min-height: 100vh; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
